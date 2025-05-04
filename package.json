@@ -9,5 +9,8 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.14.4",
     "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "deg2rad": "^1.0.0"
   }
 }
