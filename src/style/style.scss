@@ -10,10 +10,21 @@ canvas {
     display: block;
     border: 1px solid red;
     margin: 0 auto;
+    width: 100%;
 }
 
-.debug-bay {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+.entries-text-area {
+    width: 100%;
+    height: 75%;
+    resize: none;
+}
+
+.canvas-enclosure {
+    overflow: hidden;
+}
+
+.game-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 100vh;
 }

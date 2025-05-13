@@ -9,10 +9,14 @@
     <script type="module" src="./main.ts"></script>
 </head>
 <body>
-    <h1>hello world!</h1>
-    <canvas id="wheel-canvas" width="500px" height="500px"></canvas>
-    <div class="debug-bay">
-        <button id="add-sector">add test sector</button>
-    </div>
+    <section id="game" class="game-section">
+        <section class="ad-section"></section>
+        <div class="canvas-enclosure">
+            <canvas id="wheel-canvas"></canvas>
+        </div>
+        <section class="entries-section">
+            <textarea id="entries-text-area" class="entries-text-area"></textarea>
+        </section>
+    </section>
 </body>
 </html>
